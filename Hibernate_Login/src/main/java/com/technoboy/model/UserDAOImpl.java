@@ -25,7 +25,7 @@ public class UserDAOImpl implements UserDAO {
 		statement.setString(2, user.getPassword());
 		ResultSet resultSet = statement.executeQuery();
 		if(resultSet.next()) {
-			return (resultSet.getInt(0)>0);
+			return (resultSet.getInt(1)>1);
 		}
 		else {
 			return false;
