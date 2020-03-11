@@ -6,7 +6,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Login Page</title>
 </head>
 <body>
 	<form:form method="POST" action="login" modelAttribute="user">
